@@ -6,7 +6,7 @@ const webpack = require("webpack")
 
 const dist = path.resolve(__dirname, "dist")
 
-const [author, email] = require("../package.json").author.split(/s+/)
+const [author, email] = require("../package.json").author.split(/\s+/)
 
 const envs = new webpack.DefinePlugin({
     "process.env.NODE_ENV": JSON.stringify(process.env.NODE_ENV || "production"),
