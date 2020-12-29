@@ -1,0 +1,14 @@
+{
+  "name": "cyto-x",
+  "version": "1.0.0",
+  "description": "Cyto-X is an app to create levels for Cytoid",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd web && npm start",
+    "build": "cd web && npm run build"
+  },
+  "keywords": [],
+  "author": "CrowFX <tigor.hutasuhut@gmail.com>",
+  "license": "MIT"
+}

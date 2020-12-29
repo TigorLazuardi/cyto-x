@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "strict": true,
+        // Must not using commonjs
+        "module": "esnext",
+        "target": "esnext",
+        "lib": ["esnext", "dom", "dom.iterable"],
+        "removeComments": true,
+        "allowSyntheticDefaultImports": true,
+        "jsx": "react",
+        "allowJs": true,
+        "baseUrl": "src",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "moduleResolution": "node",
+        "downlevelIteration": true,
+        "paths": {
+            "@comps/*": ["components/*"]
+        }
+    },
+    "include": ["./src"],
+    "exclude": ["./src/crate"]
+}
